@@ -23,3 +23,33 @@
     border:0.2px solid #fff;
     border-radius: 5px;
   }
+  @media only screen and (max-width: 750px) {
+    .heading-subheading {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    header {
+      width: 100vw;
+    }
+
+    small {
+      width: 8rem;
+      padding: 0.2rem;
+      display: none;
+    }
+
+    .heading-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+
+    }
+
+    h1 {
+      font-size: 8vw;
+    }
+  }

@@ -1,9 +1,10 @@
 import React from 'react'
 import { NativeSelect,FormControl} from '@mui/material/';
+import './Form.css'
 const FormSelect = () => {
     return (
-        <>
-           <FormControl  className='formControl' style={{width:'7.5%',display:'absolute',top:'50%',margin:'1rem'}}>
+        <div className='formSelect'>
+           <FormControl className='formControl'>
  
  <NativeSelect
   className='app_healthLabels'>
@@ -17,7 +18,7 @@ const FormSelect = () => {
    <option value='dairy-free' onClick={()=>{setGenre('dairy-free')}} >Dairy Free</option>
  </NativeSelect>
 </FormControl>  
-        </>
+        </div>
     )
 }
 
