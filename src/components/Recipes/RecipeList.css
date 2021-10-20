@@ -11,6 +11,15 @@ transition: all 0.5s ease;
    transform:scale(1.2);
 
 }
+
+.app-recipes {
+    display: grid;
+    margin-top: 34px;
+    grid-template-columns: 230px 230px 230px;
+    align-items: baseline;
+    justify-content: center;
+
+}
 .recipeTile_name{
     max-width:200px;
    

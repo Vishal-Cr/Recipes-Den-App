@@ -14,7 +14,7 @@ const Header = () => {
           <h1 style={{cursor:'pointer'}}>Recipes Den
  
   </h1>
-  <small>Get Recipes of your favourite Ingredients!</small>
+  <small>Get Recipes of your favorite Ingredients!</small>
   </div>
   </div>     
          
