@@ -1,0 +1,25 @@
+.heading-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .icon{
+    transform: translateY(-10%);
+    margin-right:1rem;
+  
+  }
+  .heading-subheading{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  small{
+    position:absolute;
+    top:90%;
+    left:0;
+    border:0.2px solid #fff;
+    border-radius: 5px;
+  }
