@@ -64,6 +64,7 @@ const Form = () => {
    
     return (
         <div className='Form'>
+          
         <form onSubmit={submitHandler} >
        <Input placeholder='Enter Ingredient (ex:Chocolate)' 
        className='input'
@@ -72,8 +73,8 @@ const Form = () => {
       />
    
     <FormSelect/>
-    
     </form>
+  
     {loading ? <Skeleton 
     variant="cicular"
     animation='wave' 

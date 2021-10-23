@@ -7,7 +7,7 @@ const FormSelect = () => {
            <FormControl className='formControl'>
  
  <NativeSelect
-  className='app_healthLabels'>
+  className='app_healthLabels' style={{marginTop:'1.5rem'}}>
    <option value='alcohol-free' onClick={()=>{setGenre('alcohol-free')}}>Random</option>
    <option  value='vegan' onClick={()=>{setGenre('vegan')}}>Vegan</option>
    <option value='vegetarian' onClick={()=>{setGenre('vegetarian')}}>Vegetarian</option>
