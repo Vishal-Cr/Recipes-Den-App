@@ -20,7 +20,15 @@
 
 }
 
+@media(min-width:750px) {
+    .formSelect {
+        position: absolute;
+        top: 29.5%;
+        right: -30%;
+        width: 100%;
+    }
 
+}
 
 @media only screen and (max-width: 750px) {
 
@@ -39,9 +47,31 @@
 
             .formSelect {
                 position: absolute;
-                top: 24.5%;
+                top: 26.5%;
                 right: -20%;
                 width: 100%;
-            }
+                }
+
+                }
+
+                @media(max-width: 360px) {
+                    .input {
+                        width: 35%;
+
+                    }
+
+                    input::placeholder {
+                        font-size: 9px;
+                    }
+
+                    .formSelect {
+                        position: absolute;
+                        top: 26.5%;
+                        right: -20%;
+                        width: 100%;
+
+    }
+
+
 
 }
