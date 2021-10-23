@@ -39,7 +39,9 @@
         margin-left: -40%;
 
     }
-
+input::placeholder {
+    font-size: smaller;
+}
         .formControl {
             transform: translateY(18px);
             margin-left: 0.6rem;
